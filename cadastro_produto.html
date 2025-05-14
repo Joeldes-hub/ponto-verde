@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Produto</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f1f8e9; padding: 10px; }
+    nav {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px;
+    }
+    nav a {
+      color: #2e7d32; text-decoration: none; font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      nav { flex-direction: column; align-items: center; }
+      nav a { margin: 6px 0; }
+    }
+  </style>
+</head>
+
+<body>
+<nav>
+    <a href="index.html">Login</a>
+    <a href="cadastro.html">Cadastro</a>
+    <a href="principal.html">Principal</a>
+    <a href="perfil.html">Perfil</a>
+    <a href="receitas.html">Receitas</a>
+    <a href="cadastro_produto.html">Cadastrar Produto</a>
+    <a href="mapa.html">Mapa</a>
+</nav>
+
+<div style="max-width:360px; margin:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #ccc;">
+  <h2 style="color:#2e7d32; text-align:center;">Cadastro de Produto</h2>
+  <input type="text" placeholder="Nome do Produto" style="width:100%; margin-bottom:10px; padding:10px;">
+  <input type="text" placeholder="Categoria" style="width:100%; margin-bottom:10px; padding:10px;">
+  <textarea rows="4" placeholder="Descrição" style="width:100%; margin-bottom:10px; padding:10px;"></textarea>
+  <input type="text" placeholder="Preço (R$)" style="width:100%; margin-bottom:10px; padding:10px;">
+  <input type="file" accept="image/*" style="width:100%; margin-bottom:10px; padding:10px;">
+  <button onclick="alert('Produto cadastrado!')" style="width:100%; padding:10px; background:#2e7d32; color:white; border:none; border-radius:8px;">Cadastrar</button>
+</div>
+</body>
+</html>

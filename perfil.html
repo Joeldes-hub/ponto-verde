@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil do Produtor</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f1f8e9; padding: 10px; }
+    nav {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px;
+    }
+    nav a {
+      color: #2e7d32; text-decoration: none; font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      nav { flex-direction: column; align-items: center; }
+      nav a { margin: 6px 0; }
+    }
+  </style>
+</head>
+
+<body>
+<nav>
+    <a href="index.html">Login</a>
+    <a href="cadastro.html">Cadastro</a>
+    <a href="principal.html">Principal</a>
+    <a href="perfil.html">Perfil</a>
+    <a href="receitas.html">Receitas</a>
+    <a href="cadastro_produto.html">Cadastrar Produto</a>
+    <a href="mapa.html">Mapa</a>
+</nav>
+
+<div style="max-width:600px; margin:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px #ccc;">
+  <h2 style="color:#2e7d32;">João da Silva</h2>
+  <p><strong>Localização:</strong> Bacabal - MA</p>
+  <p><strong>Especialidade:</strong> Hortaliças orgânicas</p>
+  <p><strong>Contato:</strong> (99) 99999-9999</p>
+  <p><strong>Email:</strong> joao@pontoverde.com</p>
+</div>
+</body>
+</html>
