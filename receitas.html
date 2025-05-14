@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="icon" href="logo.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Receitas e Dicas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f8e9;
+      margin: 0;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      color: #2e7d32;
+    }
+  
+    @media (max-width: 600px) {
+      body, .container, .form-container, .login-container, .content, .card {
+        width: 90% !important;
+        margin: auto !important;
+        padding: 10px !important;
+      }
+      nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      nav a {
+        margin: 5px 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+<nav style="margin-bottom:20px;"><a href="login.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Login</a><a href="cadastro.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Cadastro</a><a href="principal.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Principal</a><a href="perfil.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Perfil</a><a href="receitas.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Receitas</a><a href="cadastro_produto.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Cadastrar Produto</a><a href="mapa.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Mapa</a></nav>
+  <header>
+    <h1>Receitas e Dicas</h1>
+  </header>
+  <div class="content">
+    <div class="card">
+      <h3>Suco Verde Detox</h3>
+      <p>Ingredientes: couve, limão, gengibre e água gelada.</p>
+      <p>Dica: Tome em jejum para melhores resultados!</p>
+    </div>
+    <div class="card">
+      <h3>Dica de Plantio</h3>
+      <p>Plante em solo úmido e bem drenado, adube com composto natural.</p>
+    </div>
+  </div>
+</body>
+</html>

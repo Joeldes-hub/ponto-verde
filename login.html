@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="icon" href="logo.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Ponto Verde - Login</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #e0ffe0, #a5d6a7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      padding: 40px 30px;
+      width: 320px;
+      text-align: center;
+    }
+
+    .login-container img.logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+
+    .login-container h2 {
+      margin-bottom: 10px;
+      color: #2e7d32;
+    }
+
+    .login-container p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .login-container input[type="email"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #2e7d32;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .login-container button:hover {
+      background-color: #1b5e20;
+    }
+
+    .login-container .register-link {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .login-container .register-link a {
+      color: #2e7d32;
+      text-decoration: none;
+    }
+
+    .login-container .register-link a:hover {
+      text-decoration: underline;
+    }
+  
+    @media (max-width: 600px) {
+      body, .container, .form-container, .login-container, .content, .card {
+        width: 90% !important;
+        margin: auto !important;
+        padding: 10px !important;
+      }
+      nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      nav a {
+        margin: 5px 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+<nav style="margin-bottom:20px;"><a href="login.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Login</a><a href="cadastro.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Cadastro</a><a href="principal.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Principal</a><a href="perfil.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Perfil</a><a href="receitas.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Receitas</a><a href="cadastro_produto.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Cadastrar Produto</a><a href="mapa.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Mapa</a></nav>
+  <div class="login-container">
+    <img src="logo.png" alt="Logo" class="logo">
+    <h2>Ponto Verde</h2>
+    <p>Conectando você à sustentabilidade</p>
+    <input type="email" placeholder="E-mail">
+    <input type="password" placeholder="Senha">
+    <button onclick="alert('Login simulado!')">Entrar</button>
+    <div class="register-link">
+      Não tem uma conta? <a href="#">Cadastre-se</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="icon" href="logo.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Principal - Ponto Verde</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f8e9;
+      margin: 0;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+    }
+  
+    @media (max-width: 600px) {
+      body, .container, .form-container, .login-container, .content, .card {
+        width: 90% !important;
+        margin: auto !important;
+        padding: 10px !important;
+      }
+      nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      nav a {
+        margin: 5px 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+<nav style="margin-bottom:20px;"><a href="login.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Login</a><a href="cadastro.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Cadastro</a><a href="principal.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Principal</a><a href="perfil.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Perfil</a><a href="receitas.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Receitas</a><a href="cadastro_produto.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Cadastrar Produto</a><a href="mapa.html" style="margin:0 10px;color:#2e7d32;text-decoration:none;">Mapa</a></nav>
+  <header>
+    <h1>Ponto Verde</h1>
+    <p>Hortaliças frescas e produtos artesanais</p>
+  </header>
+  <div class="content">
+    <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2017/06/30/02/51/vegetables-2455962_1280.jpg" alt="Hortaliças">
+      <h3>Hortaliças</h3>
+      <p>Produtos frescos direto da roça.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2016/01/15/16/25/jam-1141217_1280.jpg" alt="Artesanais">
+      <h3>Produtos Artesanais</h3>
+      <p>Compotas, doces e delícias locais.</p>
+    </div>
+  </div>
+</body>
+</html>
